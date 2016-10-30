@@ -115,6 +115,17 @@ public class Diamond {
 				}
 				System.out.println();
 			}
+			/////////////////////////
+			// Print full Diamonds //
+			/////////////////////////
+			/*
+			for (int row = 0; row <= rowLow; row++) {
+				for (int col = 0; col <= colRight; col++) {
+					System.out.print(bigArray[row][col]);
+				}
+				System.out.println();
+			}
+			*/
 		}
 		scanny.close();
 	}
